@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hoşgeldiniz </title>
+    <!-- Meta Etiketleri -->
+    <!--
+        <head>
+            <meta name="description" content="1 Saatte Html Öğren">
+            <meta name="keywords" content="html,websitesi">
+            <meta name="author" content="Mert mertgencay12@gmail.com">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <meta charset="UTF-8">
+            <meta http-equiv="refresh" content="5">
+        </head>    
+         -->
+</head>
+
+<body>
+    <!-- Başlık -->
+    <h1>Merhaba HTML!</h1>
+    <br>
+    <h2>Merhaba HTML!</h2>
+    <hr>
+    <h3>Merhaba HTML!</h3>
+    <h4>Merhaba HTML!</h4>
+    <h5>Merhaba HTML!</h5>
+    <h6>Merhaba HTML!</h6>
+    <p>Ben HTML öğreniyorum.</p>
+
+    <!-- Hyperlink (Bağlantı) -->
+    <a href="https://youtube.com" target="_blank" title="Youtube'a Gider">Youtube</a>
+    <br> <br> <br>
+
+    <!-- Resim -->
+    <a href="https://www.galatasaray.org/anasayfa" target="_blank">
+        <img src="Fotoğraf/gs.jpg" width="800px" height="500px" alt="Rams Park" title="
+        Ali Sami Yen Spor Kompleksi RAMS Park">
+    </a>
+    <br> <br> <br>
+
+    <!-- Ses -->
+    <audio src="Müzik/müzik.mp3" controls autoplay muted loop> </audio>
+    <br> <br> <br>
+
+    <!-- Video -->
+    <video src="Video/Röveşata.mp4" width="800px" height="500px" controls loop></video>
+    <br> <br> <br>
+
+    <!-- Metin Biçimlendirme-->
+    <p>Bu Bir Normal Yazi</p>
+    <p>Bu Bir <b>Kalin</b> Yazi</p>
+    <p>Bu Bir <i>İtalik</i> Yazi</p>
+    <p>Bu Bir <big>Büyük</big> Yazi</p>
+    <p>Bu Bir <small>küçük</small> Yazi</p>
+    <p>Bu Bir <sub>alt sembol</sub> Yazi</p>
+    <p>Bu Bir <sup>üst sembol</sup> Yazi</p>
+    <p>Bu Bir <ins> Alti çizili</ins> Yazi</p>
+    <p>Bu Bir <del>Üstü çizili</del> Yazi</p>
+    <p>Bu Bir <mark>Fosforlu</mark> Yazi</p>
+    <br> <br> <br>
+
+    <!-- Listeler -->
+    <h3>Sirasiz Liste</h3>
+    <ul>
+        <li>Süt</li>
+        <li>Tavuk</li>
+        <li>Kahvaltilik
+            <ul>
+                <li>Peynir</li>
+                <li>Yumurta</li>
+                <li>Reçel</li>
+            </ul>
+        </li>
+
+    </ul>
+    <h3>Sirali Liste</h3>
+    <ol type="A">
+        <li>Tavamizi isitalim</li>
+        <li>Yağimizi tavaya sürelim</li>
+        <li>Yumurtamizi kirip pişirelim</li>
+    </ol>
+    <h3>Açiklama Listesi</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Web sitesinin elemanlarini göstermeye yarar.</dd>
+        <dt>CSS</dt>
+        <dd>Web sitesinin görünümünü düzenlemeye yarar.</dd>
+    </dl>
+
+    <!-- Tablo-->
+    <h3>Açiliş Saatleri</h3>
+    <table width="560" bgcolor="black" border="2">
+        <tr bgcolor="grey">
+            <th width="80">Pazartesi</th>
+            <th width="80">Sali</th>
+            <th width="80">Çarşamba</th>
+            <th width="80">Perşembe</th>
+            <th width="80">Cuma</th>
+            <th width="80">Cumartesi</th>
+            <th width="80">Pazar</th>
+        </tr>
+        <tr align="center" bgcolor="lightgrey">
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>Kapali</td>
+            <td>Kapali</td>
+        </tr>
+
+    </table>
+
+    <!-- Renkler -->
+    <h1 style="color: red;">Merhaba</h1>
+    <h1 style="color:rgb(163,20,219)">Merhaba</h1>
+    <h1 style="color:#eff542">Merhaba</h1>
+
+    <p style="background-color: aliceblue; color: blue;">Lorem ipsum dolor sit amet.</p>
+
+    <!-- Span-Div -->
+    <div style="background-color: red;">Bu bir div</div>
+    <span style="background-color: green;">Bu bir span</span>
+    <br> <br> <br>
+
+
+
+    <!-- iframe -->
+    <!--
+        <iframe src="https://wikipedia.org" frameborder=""0 width="600"height="400"></iframe>
+        -->
+
+    <!-- Buton -->
+    <!--<a href="https://www.google.com"></a> -->
+    <button onclick="tikla()"
+        style="background-color: blueviolet; color: aliceblue; border-radius: 10px;">Tikla</button>
+    <br> <br> <br>
+    <!--
+        <p id="Yazi">Butona Bas!</p>
+        <script>
+            function tikla()
+            {
+                document.getElementById("yazi").innerHTML="Butona Bastiniz!"
+            }
+        </script>
+        -->
+
+    <!-- Form -->
+    <form action="">
+        <label for="isim">Ad:</label>
+        <input type="text" name="isim" id="isim" placeholder="Adinizi Giriniz" required>
+
+        <br> <br>
+
+        <label for="soyad">Soyad:</label>
+        <input type="text" name="soyad" id="soyad" placeholder="Soyadinizi Giriniz">
+
+        <br> <br>
+
+        <label for="sifre">Sifre:</label>
+        <input type="password" name="sifre" id="sifre" placeholder="*******" maxlength="16">
+
+        <br> <br>
+
+        <label for="eposta">E-posta:</label>
+        <input type="email" name="eposta" id="eposta" placeholder="ex@gmail.com">
+
+        <br> <br>
+
+        <label for="telefon">Telefon:</label>
+        <input type="tel" name="telefon" id="telefon" placeholder="(555)-555-5555">
+
+        <br> <br>
+
+        <label for="tarih">Doğum Günü:</label>
+        <input type="date" name="tarih" id="tarih">
+
+        <br> <br>
+
+        <label for="kardes">Kardeş Sayisi:</label>
+        <input type="number" name="kardes" id="kardes" min="0" max="15">
+
+        <br> <br>
+
+        <label for="cinsiyet">Cinsiyet:</label>
+        <label for="">Erkek</label>
+        <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+        <label for="">Kadin</label>
+        <input type="radio" name="cinsiyet" id="kadin" value="kadin">
+
+        <br> <br>
+
+        <select name="" id="">
+            <option value="ssk">SSK</option>
+            <option value="bagkur">Bağkur</option>
+            <option value="emekli">Emekli Sandiği</option>
+        </select>
+
+        <br> <br>
+
+        <label for="">Aktif olarak çalişiyor</label>
+        <input type="checkbox">
+
+        <br> <br>
+
+        <textarea name="" id="" cols="15" rows="5"></textarea>
+
+        <br> <br>
+
+        <input type="file" accept=".pdf">
+
+        <br> <br>
+
+        <input type="reset">
+        <input type="submit">
+
+
+    </form>
+
+</body>
+
+</html>

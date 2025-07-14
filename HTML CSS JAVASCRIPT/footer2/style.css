@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.container{
+    background-color: rgb(26, 26, 30);
+    border-top-right-radius: 80px;
+    height: 300px;
+    margin-top: 444px;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+}
+
+.logo{
+    margin: 35px 40px;
+    font-size: 35px;
+}
+
+span{
+    color: red;
+}
+
+h1{
+    color: white;
+}
+
+.text{
+    font-size: 10px;
+    margin-top: 10px; 
+}
+
+.footer{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+
+.line-1{
+    height: 2px;
+    background-color: red;
+    width: 130px;
+    margin: 10px 55px;
+}
+
+.line-2{
+    height: 2px;
+    background-color: red;
+    width: 145px;
+    margin: 10px 40px;
+}   
+
+.line-3{
+    height: 2px;
+    background-color: red;
+    width: 103px;
+    margin: 10px 17px;
+}
+
+ul li a{
+    margin: 30px 120px;
+    font-size: 20px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+li{
+    padding: 5px;
+}
+
+.company{
+    margin-left: 50px;
+}
+
+.follow-us{
+    margin-left: 38px;
+}
+
+.contact{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 35px;
+}
+
+i{
+    margin: 15px;
+}
+
+#a{
+    margin-left: -8px;
+}
+
+#b{
+    align-self: 25px;
+}
+
+.copyright{
+    margin-left: 500px;
+    margin-top: 32px;
+    font-size: 20px;
+    color: red;
+}

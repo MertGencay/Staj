@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taş-Kağıt-Makas Oyunu</title>
+</head>
+<body>
+    
+    <div class="game">
+        <div class="score">
+            <h2>Skor</h2>
+            <h2 class="result"></h2>
+            <div class="display-score">
+                <div class="player-score">Oyuncu<p>0</p></div>
+                <div class="computer-score">Bilgisayar<p>0</p></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button data-value="rock">TAŞ</button>
+            <button data-value="paper">KAĞIT</button>
+            <button data-value="scissors">MAKAS</button>
+        </div>
+        <div class="images">
+            <div class="player-image">
+                <img src="images/rock.png" alt="">
+            </div>
+            <div class="computer-image">
+                <img src="images/rock.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modalpopup">
+            <button>Başlamak İçin Tıklayın</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
