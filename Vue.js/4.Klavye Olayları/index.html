@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klavye Olayları</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Klavye Etkinlikleri</h1>
+        <label for="name">İsim:</label>
+        <input type="text" v-on:keyup.enter="isimYakala">
+        <label for="age">Yaş:</label>
+        <input type="number" v-on:keyup="yasYakala">
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
